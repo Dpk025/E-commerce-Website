@@ -47,6 +47,11 @@ body {
     font-size: 1.5rem;
 }
 
+.navbar-center img {
+    width: 215px;
+    height: 40px;
+}
+
 .cart-btn {
     position: relative;
     cursor: pointer;
@@ -197,7 +202,7 @@ body {
     transition: var(--mainTransition);
     background: rgba(220, 121, 40, 0.5);
     z-index: 2;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 
 .cart {
@@ -211,7 +216,7 @@ body {
     background: rgb(231, 226, 221);
     padding: 1.5rem;
     transition: var(--mainTransition);
-    /* transform: translateX(100%); */
+    transform: translateX(100%);
 }
 
 .showCart {
